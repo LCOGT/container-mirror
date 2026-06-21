@@ -36,4 +36,4 @@ jobs:
           fromImage: ${{ inputs.from }}
           toImage: ${{ inputs.to }}
         run: |-
-          docker buildx imagetools create --tag "ghcr.io/$GITHUB_REPOSITORY/$toImage" "$fromImage"
+          docker buildx imagetools create --tag "ghcr.io/${GITHUB_REPOSITORY,,}/$toImage" "$fromImage"
