@@ -1,5 +1,5 @@
 # container-mirror
-Mirror public container images to LCOGT controlled registry
+Mirror public container images to a LCOGT controlled registry
 
 
 ## Usage
