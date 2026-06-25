@@ -11,7 +11,7 @@ on:
       
       to:
         type: string
-        description: Name and tag of the mirrored image in this repo. This can include namepsace components too. (e.g. namespace/nested/postgres:15.18-bookwork)
+        description: Name and tag of the mirrored image in this repo. This can include namespace components too. (e.g. namespace/nested/postgres:15.18-bookwork)
         required: true
 
 jobs:
