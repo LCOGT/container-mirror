@@ -6,4 +6,4 @@ Mirror public container images to a LCOGT controlled registry
 
 Use the [Mirror Workflow](../../actions/workflows/mirror.yaml) to mirror an image.
 
-<img alt="image" src="https://github.com/user-attachments/assets/dbd7da50-9fa6-442b-a129-5ceb21f3f87e" />
+<img alt="image" src="https://github.com/user-attachments/assets/420c7ade-e4b5-4626-88e2-ce1c1c81ea02" />
