@@ -1,16 +1,17 @@
 name: Mirror image
+run-name: Mirror image ${{ inputs.from }} -> ${{ inputs.to }}
 
 on:
   workflow_dispatch:
     inputs:
       from:
         type: string
-        description: Image to mirror (e.g. ghcr.io/kptdev/krm-functions-catalog/starlark:v0.5.0)
+        description: Image to mirror (e.g. docker.io/postgres:15.18-bookworm)
         required: true
       
       to:
         type: string
-        description: Name and tag of the mirrored image in this repo (e.g. kptdev/krm-functions-catalog/starlark:v0.5.0)
+        description: Name and tag of the mirrored image in this repo. This can include namepsace components too. (e.g. namespace/nested/postgres:15.18-bookwork)
         required: true
 
 jobs:
